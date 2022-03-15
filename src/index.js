@@ -1,9 +1,9 @@
 import reactDOM from 'react-dom';
 import NavBar from './NavBar';
 import Conteudo from './Conteudo';
-import FundoMobile from './Conteudo';
+import FundoMobile from './Fundo';
 
-function Instagram(){
+export default function Instagram(){
     return ( 
         <div>
         <NavBar />
